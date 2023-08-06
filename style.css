@@ -1,0 +1,160 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body{
+    background-color: #FFE8D6;
+}
+
+.logo{
+    border-radius: 20px;
+}
+
+.search{
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  background-color: white;
+  border-radius: 15px;
+  border: 10px solid #B7B7A4;
+  color: rgb(0, 0, 0);
+}
+
+.nav-list{
+    font-weight: lighter;
+    text-align: center;
+}
+
+.nav-btn{
+    font-weight: lighter;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 30px 8px 30px ;
+    background-color: #B7B7A4;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-btn:hover{
+    text-decoration: underline;
+}
+
+.nav-btn-c:hover{
+    text-decoration: underline;
+}
+
+.nav-btn-c{
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 30px 8px 30px ;
+    background-color: #6B705C;
+    font-weight: normal;
+    text-align: center;
+}
+
+.hr-line{
+    border: 2px solid #6B705C;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.titel{
+    font-size: 5em;
+}
+
+.light-text{
+    font-size: 1em;
+    font-weight:lighter;
+    white-space: wrap;
+    color: rgba(0, 0, 0, 0.500);
+}
+
+.Join-Us{
+    font-weight: lighter;
+    font-size: 3em;
+    color: rgba(0, 0, 0, 0.500);
+}
+
+.si-btn{
+padding: 25px 100px 25px 100px;
+background-color: #DDBEA9;
+border-radius: 20px;
+border: none;
+font-size: 1em;
+}
+
+.si-btn:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.mat1{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+text-align: center;
+}
+
+.mat2{
+display: flex;
+flex-direction: column;
+justify-items: center;
+align-items: space-evenly;
+text-align: center;
+margin-left: 150px;
+}
+
+.content{
+    background-color: #6B705C;
+    border-radius: 20px;
+    padding: 50px;
+    color: #FFE8D6;
+}
+
+.heading{
+    font-size: x-large;
+}
